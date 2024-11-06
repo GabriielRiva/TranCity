@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0004ff, #000000);
+  color: white;
+}
+.App-header {
+  font-size: calc(10px + 2vmin);
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}

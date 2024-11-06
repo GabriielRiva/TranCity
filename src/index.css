@@ -1,0 +1,82 @@
+/* Define o fundo branco para a página */
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+}
+
+/* Cabeçalho fixo no canto superior esquerdo */
+.header {
+  position: absolute;
+  top: 110px;
+  left: 20px;
+}
+
+.company-name {
+  font-size: 24px;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para a Home Page */
+.home-page {
+  text-align: left;
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Barra de Pesquisa no canto superior esquerdo */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 175px; /* Ajuste a distância do topo */
+  left: 20px;
+  width: 100%;
+  max-width: 1000px; /* Limita a largura da barra de pesquisa */
+}
+
+/* Barra de Pesquisa */
+.search-bar {
+  width: 100%;
+  padding: 10px 10px 10px 40px; /* Espaço extra à esquerda para o ícone */
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px; /* Ícone à esquerda */
+  color: black;
+  font-size: 18px;
+}
+
+/* Página de Pesquisa */
+.search-page {
+  width: 100%;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Estilo do botão de voltar */
+.back-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* Ícone da seta */
+.back-icon {
+  font-size: 24px;
+}
